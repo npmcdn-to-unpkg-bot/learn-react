@@ -5,7 +5,6 @@
   "description": "Learning react",
   "main": "index.js",
   "scripts": {
-    "watch": "babel -w hello.jsx -o hello.js"
   },
   "dependencies": {
     "react": "^15.0.1"
