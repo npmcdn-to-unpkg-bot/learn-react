@@ -5,9 +5,15 @@
   "description": "Learning react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "babel -w hello.jsx -o hello.js"
   },
   "dependencies": {
     "react": "^15.0.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.7.7",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0"
   }
 }
